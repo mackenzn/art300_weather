@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-family: interstate, sans-serif;
+}
+
+.header {
+    background-color: #082E5F;
+    height: 60px;
+    position: relative;
+}
+
+.weather {
+    font-size: 40px;
+    color: #E6E6DC;
+    position: absolute;
+    top: auto;
+    left: 750px;
+}
+
+.search {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    background-color: #E6E6DC;
+}
+
+.main {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        "current locartion week" 
+        "current when week";
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 30px;
+    width: 80vw;
+    height: 900px;
+}
+
+.current {
+    background-color: #64B8C2;
+    margin: 20px;
+}
+
+.location {
+    background-color: #E6E6DC;
+}
+
+.when {
+    background-color: #E6E6DC;
+}
+
+.week {
+    background-color: #E6E6DC;
+}
