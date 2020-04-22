@@ -35,24 +35,130 @@ body {
         "current locartion week" 
         "current when week";
     grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 30px;
     width: 80vw;
-    height: 900px;
+    height: 1800px;
 }
 
 .current {
     background-color: #64B8C2;
-    margin: 20px;
+    padding: 30px;
 }
 
 .location {
     background-color: #E6E6DC;
+    height: 300px;
+    padding: 30px;
 }
 
 .when {
     background-color: #E6E6DC;
+    height: 300px;
+    padding: 20px;
 }
 
-.week {
-    background-color: #E6E6DC;
+.day1 {
+    background-color: #FFDB73;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #707070;
+
+    display: grid;
+    grid-gap: 20px 10px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.hourly {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 500px;
+    grid-gap: 20px;
+    margin: 30px;
+}
+
+.hour1 {
+    background-color: #B3DCE1;
+    padding: 20px;
+}
+
+.other {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 2fr 1fr;
+    height: 700px;
+    margin: 30px;
+}
+
+.radar {
+    background-color: #FFDB73;
+}
+
+.alertbox {
+    background-color: #EB484C;
+    padding: 20px;
+}
+
+.alerts {
+    font-size: 70px;
+    color: #E6E6DC;
+    text-align: center;
+}
+
+.alertinfo {
+    color: #E6E6DC;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #082E5F;
+}
+
+.degree {
+    color: #082E5F;
+    font-size: 150px;
+    text-align: center;
+}
+
+.city {
+    color: #082E5F;
+    font-size: 50px;
+    text-align: center; 
+}
+
+.state {
+    color: #082E5F;
+    font-size: 80px;
+    text-align: center; 
+}
+
+.zipcode {
+    color: #082E5F;
+    font-size: 30px;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.time {
+    color: #082E5F;
+    font-size: 70px;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.day {
+    color: #082E5F;
+    font-size: 30px;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #082E5F;
+    font-size: 30px;
+    text-align: center; 
 }
